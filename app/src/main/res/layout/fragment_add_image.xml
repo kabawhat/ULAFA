@@ -1,0 +1,60 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+
+                android:id="@+id/add_image_fragment_imageview_image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+
+                android:layout_margin="16dp"
+                android:maxHeight="250dp"
+                android:minHeight="250dp"
+                android:src="@drawable/noimage">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+
+            <Button
+                android:id="@+id/add_image_fragment_btn_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/add_image_fragment_imageview_image"
+                android:layout_margin="8dp"
+                android:text="Select Image"></Button>
+
+
+            <Button
+                android:id="@+id/add_image_fragment_btn_upload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/add_image_fragment_btn_add"
+                android:layout_margin="8dp"
+                android:text="Upload"></Button>
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2158974358974359" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.1787037037037037" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml" value="0.2158974358974359" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/activity_main.xml" value="0.12037037037037036" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/activity_main2.xml" value="0.19010416666666666" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/changelayout.xml" value="0.203125" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/content_main.xml" value="0.12037037037037036" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/found_item.xml" value="0.203125" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/found_notication_item.xml" value="0.203125" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/fragment_account_settings.xml" value="0.21" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/fragment_add_image.xml" value="0.1361111111111111" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/fragment_found.xml" value="0.203125" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/fragment_found_chat.xml" value="0.203125" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/fragment_login.xml" value="0.15648148148148147" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/fragment_message.xml" value="0.21" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/fragment_post_found.xml" value="0.203125" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/fragment_register.xml" value="0.203125" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/fragment_view_image.xml" value="0.15648148148148147" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/notification_item.xml" value="0.203125" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/recycler_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/layout/single_item.xml" value="0.15648148148148147" />
+        <entry key="..\:/Androidx/Udus_lost_and_found/app/src/main/res/menu/menu_main.xml" value="0.17" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

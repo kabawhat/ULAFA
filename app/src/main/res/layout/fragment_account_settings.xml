@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <ProgressBar
+            android:id="@+id/AccountSettingsBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:indeterminate="true"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:id="@+id/profile"
+            android:layout_width="180dp"
+            android:layout_height="140dp"
+            android:src="@drawable/default_image"
+            />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="4dp"
+            android:background="@color/white"
+            android:imeOptions="actionNext"
+            app:boxBackgroundColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/account_edit_username"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Username"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLines="1"
+                android:minHeight="50dp"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="4dp"
+            android:background="@color/white"
+            android:imeOptions="actionNext"
+            app:boxBackgroundColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/account_edit_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Enter PhoneNumber"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:minHeight="50dp"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/submit"
+            android:layout_width="297dp"
+            android:layout_height="52dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorAccent"
+            android:fontFamily="casual"
+            android:text="Save Account Settings"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/logout"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorAccent"
+            android:fontFamily="casual"
+            android:text="Logout Account"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            />
+
+
+
+        <Button
+
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:id="@+id/setup_account_login"
+            android:layout_width="297dp"
+            android:layout_height="52dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="casual"
+            android:text="Login Here"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

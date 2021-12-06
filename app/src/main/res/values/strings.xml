@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ULAFA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="tab_text_found">Found</string>
+    <string name="tab_text_lost">Lost</string>
+
+
+    <!--    <string name="lost">Lost</string>-->
+
+
+</resources>

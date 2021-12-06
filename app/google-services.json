@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "627489807135",
+    "project_id": "ulafa-a0631",
+    "storage_bucket": "ulafa-a0631.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627489807135:android:63e2369ca1423bc542ee2a",
+        "android_client_info": {
+          "package_name": "com.binbashir.ulafa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627489807135-l9kdamc02ej06mi5e400elsjns8kssdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5NCEfcRUW_2Kf1at44Bf_bzckEsJOzig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627489807135-l9kdamc02ej06mi5e400elsjns8kssdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

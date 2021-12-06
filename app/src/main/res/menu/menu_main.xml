@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.binbashir.myapplication.MainActivity">
+    <item
+
+        android:icon="@drawable/ic_baseline_person_24_white"
+        android:id="@+id/action_account"
+        android:title="Account Settings"
+        app:showAsAction="always" />
+</menu>

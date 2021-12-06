@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.ViewDetailsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/view_fragment_text_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="Have You Seen this Item ?"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <ImageView
+
+                android:id="@+id/view_fragment_imageview_image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@id/view_fragment_text_desc"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:maxHeight="250dp"
+
+                android:scaleType="fitCenter"
+                android:src="@drawable/noimage">
+
+            </ImageView>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/view_fragment_linear_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_fragment_imageview_image"
+              android:layout_margin="1dp"
+                android:weightSum="2">
+
+
+                <Button
+                    android:id="@+id/view_fragment_btn_call"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_white_baseline_phone_24"
+                    android:text="Call the Owner"></Button>
+
+                <Button
+                    android:id="@+id/view_fragment_btn_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_baseline_email_24_white"
+                    android:text="E-Mail The Owner"></Button>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
